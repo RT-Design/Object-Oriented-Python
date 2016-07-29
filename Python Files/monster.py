@@ -1,4 +1,8 @@
-#__str__
+#############################
+# By: Ryan A Tolentino      #
+# 07/29/16                  #
+# Tolentino2016@gmail.com   #
+#############################
 
 import random
 
