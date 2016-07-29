@@ -1,4 +1,4 @@
-#Intro to inheritance
+#__str__
 
 import random
 
@@ -19,6 +19,13 @@ class Monster(object):
 
         for key, value in kwargs.items():
             setattr(self,key,value)
+
+    def __str__(self):
+        return '{} {} , HP: {}, XP: {}'.format(self.color.title(),
+                                               self.__class__.__name__,
+                                               self.hit_points,
+                                               self.experience)
+        
 
     def battlecry(self):
 
