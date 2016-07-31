@@ -1,0 +1,20 @@
+#############################
+# By: Ryan A Tolentino      #
+# 07/30/16                  #
+# Tolentino2016@gmail.com   #
+#############################
+import random
+
+class combat:
+    dodge_limit = 6
+    attack_limit = 6
+
+    def dodge(self):
+        roll = random.randint(1,self.dodge_limit)
+        return roll > 4
+
+    def attack(self):
+        roll = random.randint(1,self.attack_limit)
+        return roll > 4
+        
+    

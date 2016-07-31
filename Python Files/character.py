@@ -3,7 +3,10 @@
 # 07/29/16                  #
 # Tolentino2016@gmail.com   #
 #############################
-class Character:
+from combat import Combat
+
+
+class Character(Combat):
     experience = 0
     hit_points = 10
 
