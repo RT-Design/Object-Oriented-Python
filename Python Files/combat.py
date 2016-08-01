@@ -5,7 +5,7 @@
 #############################
 import random
 
-class combat:
+class Combat:
     dodge_limit = 6
     attack_limit = 6
 
